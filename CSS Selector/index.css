@@ -1,0 +1,35 @@
+li{                      /*Element selector*/
+    font-weight: bolder;
+}
+
+#headtext{                  /*ID selector*/
+    color: blueviolet;
+
+}
+
+.arti{                     /*Class Selector*/
+    background-color:wheat;
+}
+
+
+article p{                   /*Descendant Selector*/
+    color: blueviolet;
+}
+
+article > p{                 /*Child Selector */
+    color: red;
+}
+
+*{                    /*Universal Selector*/
+    font-style: italic;
+  
+}
+
+a[target=_blank]{
+    color: blueviolet;
+
+}                         /* Attribute Selector */
+
+a[target=_self]{
+    color:black;
+}
